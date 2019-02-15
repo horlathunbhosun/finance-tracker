@@ -12,4 +12,24 @@
 //
 //= require rails-ujs
 //= require turbolinks
+//= require jquery
+//= require popper
+
+//= require vendors/perfect-scrollbar.jquery.min.js
+//= require vendors/prism.min.js
+//= require vendors/jquery.matchHeight-min.js
+//= require vendors/screenfull.min.js
+//= require vendors/pace/pace.min.js
+//= require vendors/toastr.min.js
+
+//= require vendors/jquery.countdown.min.js
+//= require js/app-sidebar.js
+//= require js/toastr.min.js
+
+//= require js/notification-sidebar.js
+
+
+
+
+
 //= require_tree .

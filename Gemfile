@@ -20,6 +20,11 @@ gem 'uglifier', '>= 1.3.0'
 # gem 'therubyracer', platforms: :ruby
 gem 'bcrypt', '~> 3.1.7'
 gem 'font-awesome-rails'
+gem 'devise'
+gem 'twitter-bootstrap-rails'
+gem 'devise-i18n'
+# Views
+gem 'devise-bootstrap-views', '~> 1.0.0.alpha1'
 
 gem 'glyphicons-rails', '~> 0.1.2'
 gem "jquery-rails"
@@ -60,3 +65,8 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+group :production do
+  # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'pg', '>= 0.18', '< 2.0'
+end

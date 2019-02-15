@@ -1,0 +1,35 @@
+
+  
+    <!-- ////////////////////////////////////////////////////////////////////////////-->
+<div class="wrapper">
+    <!--Coming soon starts-->
+    <section id="coming-soon">
+        <div class="container-fluid">
+            <div class="row full-height-vh">
+                <div class="col-12 d-flex align-items-center justify-content-center gradient-aqua-marine">
+                    <div class="card p-3 box-shadow-2">
+                        <!-- <div class="card-header text-center">
+                            <img alt="avtar" class="img-fluid mb-3" src="<%= asset_path('logos/logo-color-big.png')%>" width="80">
+                            <h4 class="text-uppercase text-bold-400 grey darken-1">Coming Soon</h4>
+                        </div> -->
+                        <div class="card-body">
+                            <div class="text-center">
+                                <h5 class="card-text pb-2">WELCOME TO FINANCE TRACKER.</h5>
+                                
+                                <div class="col-12 pt-1">
+                                      <button class="btn gradient-man-of-steel white sidebar-shadow btn-lg"> Sign Up </button>
+                                      <button class="btn gradient-flickr white big-shadow btn-lg">Login </button>
+                                   
+                                </div>
+
+                              <%= link_to "logout", destroy_user_session_path, method: :delete, class: 'btn mr-1 shadow-z-2 btn-danger' %>
+                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Coming soon ends-->
+</div>
